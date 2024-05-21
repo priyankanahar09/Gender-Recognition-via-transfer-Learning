@@ -7,29 +7,14 @@ Technologies and Dependencies
 
 TensorFlow/Keras (or PyTorch - choose one for initial implementation)
 
-OpenCV (for image processing)
 
-NumPy (for numerical computations)
-
-Additional dependencies might be required based on the chosen framework (TensorFlow/Keras or PyTorch).
+Additional dependencies might be required based on the chosen framework (TensorFlow/Keras).
 
 Installation
 Install Python (if not already installed).
 Create a virtual environment (recommended) to isolate project dependencies.
 Install required libraries using pip:
 
-TensorFlow/Keras:
-Bash
-pip install tensorflow keras opencv-python numpy
-Use code with caution.
-content_copy
-PyTorch:
-Bash
-pip install torch torchvision opencv-python numpy
-Use code with caution.
-content_copy
-Usage
-Note: These instructions assume using TensorFlow/Keras for initial implementation. If using PyTorch, refer to separate documentation for specific functionalities.
 
 Download the CelebA dataset from https://mmlab.ie.cuhk.edu.hk/projects/CelebA.html.
 
