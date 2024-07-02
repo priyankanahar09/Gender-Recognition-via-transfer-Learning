@@ -26,23 +26,21 @@ Train the model using the prepared CelebA dataset and a chosen optimizer (e.g., 
 
 Evaluate the model's performance on a validation set using metrics like accuracy, precision, recall, and F1-score.
 
-For detailed implementation steps and training scripts, refer to the provided notebooks (gender_detection_keras.ipynb or gender_detection_pytorch.ipynb).
+For detailed implementation steps and training scripts, refer to the provided notebooks (main.ipynb).
 
-*Dataset Information*
+**Dataset Information**
 
 The CelebA dataset contains over 200,000 celebrity images with various facial attributes, including gender labels.
 
-*Model Architecture*
+**Model Architecture**
 
 The project utilizes transfer learning. Pre-trained models (VGGFace2, ResNet50, InceptionV3) are loaded with their weights frozen. New classification layers are added on top for gender prediction.
 
-*Evaluation and Results*
+**Evaluation and Results**
 
-The model's performance will be evaluated on a validation set using various metrics (accuracy, precision, recall, F1-score). Results will be reported in the corresponding notebooks.
+The model's performance evaluated on a validation set using various metrics (accuracy, precision, recall, F1-score). Results will be reported in the corresponding notebooks.
 
-Contribution Guidelines
 
-This project is currently under development. Pull requests for improvements and bug fixes are welcome!
 
 License
 License: MIT License (see [https://opensource.org/licenses/MIT](https://opensource.org/licenses/MIT) for details)
