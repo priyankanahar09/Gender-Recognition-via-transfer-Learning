@@ -26,7 +26,7 @@ Train the model using the prepared CelebA dataset and a chosen optimizer (e.g., 
 
 Evaluate the model's performance on a validation set using metrics like accuracy, precision, recall, and F1-score.
 
-For detailed implementation steps and training scripts, refer to the provided notebooks (main.ipynb).
+For detailed implementation steps and training scripts, refer to the provided code (main.py).
 
 **Dataset Information**
 
